@@ -225,13 +225,32 @@ height: 460px;
 
 }
 .places__link {
-  color:#ffffff;
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+/* identical to box height, or 122% */
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
 }
 .places__url-heading {
   grid-column: 3;
   grid-row: 1;
   align-self: end;
-  color: #ffffff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 170%;
+
+  /* or 20px */
+  letter-spacing: 0.2em;
+
+  color: #AAAAAA;
 }
 .test-paragraph {
   grid-column: 3;
@@ -241,10 +260,88 @@ height: 460px;
   margin: 0px;
   padding-bottom: 25px;
 
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 163%;
+
+/* or 29px */
+
+color: #FFFFFF;
+
+}
+/*cover-aj*/
+.cover__background {
+  margin: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+
+  width: calc(100% - 10%);
+  height: 100%;
+  color: #fff;
+  text-decoration: none;
+  background-image: url(../Images/photo-grid-highway.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+
+}
+.cover__background::before {
+  content:"";
+  position: absolute;
+  top: 0;
+  left:0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cover__background:hover::before {
+  opacity: 0.3;
+
+}
+.cover__title {
+  margin: 20% 0 0;
+  padding: 0;
+  font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 76px;
+
+/* identical to box height, or 106% */
+text-align: center;
+
+color: #FFFDFD;
+z-index: 1;
+
+}
+.cover__subtitle {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+/* or 122% */
+text-align: center;
+
+color: #FFFFFF;
+z-index: 1;
+
+
 }
 
 /*cover image*/
-.cover {
+/*.cover {
 }
 .covers {
 }
@@ -271,7 +368,7 @@ height: 460px;
   /*display: flex;
   justify-content: center;
   flex-direction: column;
-  z-index: 1;*/
+  z-index: 1;
 }
 .cover__title {
   margin: 0;
@@ -282,7 +379,7 @@ height: 460px;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  /* identical to box height, or 106% */
+  /* identical to box height, or 106%
 
   text-align: center;
   z-index: 1;
@@ -296,43 +393,49 @@ height: 460px;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  /* or 122% */
+  /* or 122%
 
   text-align: center;
 
-  color: #ffffff;
+  color: #ffffff;*/
 }
+/*
 .footer__columns {
   display: flex;
   justify-content: space-between;
   width: 1184px;
 align-content: center;
 margin: auto;
+text-decoration: none;
 
 }
 .footer__column {
   margin: 0;
   max-width: 1280px;
+  text-decoration: none;
 }
 .footer__column_content_left {
 }
 .footer__list {
   display: flex;
   list-style-type: none;
+  text-decoration: none;
 
 }
 .footer__link-left {
   margin: 0;
   padding-right: 18px;
   color: #ffffff;
-
+  text-decoration: none;
 
 
 }
 .footer__link-right {
   text-decoration: none;
+
   color: #ffffff;
 }
 
 .copyright {
-}
+  text-decoration: none;
+}*/
