@@ -4,14 +4,14 @@
 
   background: #2a2c2f;
   color: #ffffff;
-  max-width: 100vw;
+  max-width: 1280;
   height: auto;
 }
 
 /*header*/
 .header {
   margin: auto;
-  padding: 34px 20% 0 20%;
+  padding-top: 34px;
   width: 984px;
   display: flex;
   justify-content: space-between;
@@ -28,7 +28,7 @@
 /*lead*/
 .lead {
   margin: auto;
-  padding: 58px 22% 0 22%;
+  padding-top: 58px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -222,11 +222,16 @@ height: 460px;
   grid-column: 3;
   grid-row: 1;
   align-self: end;
+
+}
+.places__link {
+  color:#ffffff;
 }
 .places__url-heading {
   grid-column: 3;
   grid-row: 1;
   align-self: end;
+  color: #ffffff;
 }
 .test-paragraph {
   grid-column: 3;
@@ -246,7 +251,7 @@ height: 460px;
 
 .cover__background {
   margin: auto;
-  width: calc(100vw - 96px);
+  width: calc(1280px - 96px);
   height: 100vh;
   background-color: pink;
   background-image: url("../Images/photo-grid-highway.jpg");
@@ -296,4 +301,38 @@ height: 460px;
   text-align: center;
 
   color: #ffffff;
+}
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 1184px;
+align-content: center;
+margin: auto;
+
+}
+.footer__column {
+  margin: 0;
+  max-width: 1280px;
+}
+.footer__column_content_left {
+}
+.footer__list {
+  display: flex;
+  list-style-type: none;
+
+}
+.footer__link-left {
+  margin: 0;
+  padding-right: 18px;
+  color: #ffffff;
+
+
+
+}
+.footer__link-right {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.copyright {
 }
