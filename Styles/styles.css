@@ -217,13 +217,7 @@
   grid-template-columns: auto 35% 3% 38% auto;
   grid-template-rows: 156px 48px auto;
 }
-.place {
-  /*display: flex;
- flex-flow: column-wrap;
- justify-content: space-between;
-  margin: auto;
-  width: 984px;*/
-}
+
 .place__title {
   margin: 0;
   grid-column-start: 2;
@@ -321,42 +315,66 @@
     font-size: 16px;
     line-height: 163%;
   }
-  /*MQ below is broken, background color only works at 425px and columns do not go from 5-1*/
+  /*MQ below is broken, background color only works at 425px */
   @media screen
-  and (min-width: 100px)
   and (max-width: 425px) {
     .place {
+      margin:0;
+      padding: 20px;
       grid-column: 1;
       grid-row: 1;
-      grid-template-columns: auto;
+      grid-template-columns: 5% 90% 5%;
       grid-template-rows: auto;
       background-color:pink;
     }
     .place__image {
-      grid-column: 1;
-      grid-row: 2;
+      margin: 0;
+      padding: 0;
+      grid-column: 2;
+      grid-row: 4;
     }
     .place__title {
-      grid-column: 1;
-      grid-row: 3;
+      margin: 0;
+      padding: 0;
+      grid-column: 2;
+      grid-row: 1;
       font-size: 32px;
       line-height: 109%;
     }
+    .places__website {
+      margin: 0;
+      padding: 0;
+      grid-column: 2;
+      grid-row: 3;
+      align-self: end;
+    }
     .places__link {
-      grid-column: 1;
-      grid-row: 4;
+      margin: 0;
+      padding: 0;
+      grid-column: 2;
+      grid-row: 2;
       font-size: 12px;
       line-height: 100%;
       letter-spacing: 0.2em;
     }
-    .test__paragraph {
-      grid-column: 1;
+    .test-paragraph {
+      margin: 0;
+      padding: 0;
+      grid-column: 2;
       grid-row: 5;
       font-size: 16px;
       line-height: 163%;
     }
+   /* .place__paragraph {
+      margin: 0;
+      padding: 0;
+      grid-column: 2;
+      grid-row: 5;
+      font-size: 16px;
+      line-height: 163%;*/
+    }
   }
-}
+
 
 /*cover-aj*/
 .cover__background {
