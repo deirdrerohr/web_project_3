@@ -22,7 +22,7 @@
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .photo-grid {
     /* margin: auto;*/
-    padding: 88px 3% 88px 3%;
+    padding: 88px 3% 30% 3%;
     max-width: 768px;
     grid-template-columns: auto auto;
     gap: 3%;
