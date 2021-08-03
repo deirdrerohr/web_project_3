@@ -1,5 +1,6 @@
 .cover__background {
   margin: auto;
+  padding-top: 92px;
   position: relative;
   display: flex;
   align-items: center;
@@ -32,5 +33,12 @@
 @media screen and (max-width: 1024px) {
   .cover__background {
     max-width: 100%;
+    padding-top: 89px;
   }
 }
+@media screen and (max-width: 425px) {
+  .cover__background {
+    padding-top: 64px;
+  }
+}
+
