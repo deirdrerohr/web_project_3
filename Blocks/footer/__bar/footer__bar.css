@@ -1,0 +1,13 @@
+.footer__bar {
+  margin: auto;
+  padding: 92px 0 24px 0;
+  max-width: calc(100% - 10%);
+  height: auto;
+  color: #ffffff;
+}
+@media screen and (max-width: 425px) {
+  .footer__bar {/*this might not be correctly labled*/
+    display: flex;
+    flex-direction: row;
+  }
+}

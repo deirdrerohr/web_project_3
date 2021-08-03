@@ -1,0 +1,36 @@
+.cover__background {
+  margin: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  max-width: calc(100% - 10%);
+  height: auto;
+  color: #fff;
+  text-decoration: none;
+  background-image: url('../../../Images/photo-grid-highway.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.cover__background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cover__background:hover::before {
+  opacity: 0.3;
+}
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    max-width: 100%;
+  }
+}

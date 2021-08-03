@@ -1,4 +1,18 @@
+
 # Project 3: From Portland to Portland
+## This responsive web page was coded from a Figma design brief.
+
+### What Did I Learn?
+* Working with a Figma as a developer.
+* Media Queries
+* Flexbox
+* Grid
+* Relative Values
+* Git
+* Github
+* Visual Studio Code
+* Working with images
+* Accepting code review feedback in a constructive way.
 
 ### Overview
 * Intro
@@ -15,6 +29,6 @@ This is a project about traveling across the US. We've made it so all the elemen
 
 **Images**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
 
 Good luck and have fun!
