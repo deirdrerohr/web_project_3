@@ -1,4 +1,4 @@
-.footer__bar {
+.footer {
   margin: auto;
   padding: 92px 0 24px 0;
   max-width: calc(100% - 10%);
@@ -6,8 +6,8 @@
   color: #ffffff;
 }
 @media screen and (max-width: 425px) {
-  .footer__bar {/*this might not be correctly labled*/
+  .footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 }
