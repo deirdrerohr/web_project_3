@@ -55,3 +55,6 @@
 @import url(../Blocks/place/__website/place__website.css);
 
 @import url(../Blocks/cards/cards.css);
+
+/*fonts*/
+@import url(../Vendors/fonts/fonts.css);
