@@ -8,13 +8,12 @@
   justify-content: center;
 
   max-width: calc(100% - 2 * 48px);
-  height: auto;
+  min-height: 740px;
   color: #fff;
   text-decoration: none;
   background-image: url('../../../Images/photo-grid-highway.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  object-fit: cover;
 }
 .cover__background::before {
   content: "";
@@ -34,12 +33,26 @@
 @media screen and (max-width: 1024px) {
   .cover__background {
     max-width: 100%;
-    padding-top: 89px;
+    max-height: 480px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover__background {
+    padding-top: 82px;
   }
 }
 @media screen and (max-width: 425px) {
   .cover__background {
+    max-height: 200px;
     padding-top: 64px;
+
   }
 }
 
+
+
+@media screen and (max-width: 768px) {
+  .cover__background {
+    padding-top: 82px;
+  }
+}
