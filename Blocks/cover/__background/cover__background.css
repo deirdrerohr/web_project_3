@@ -5,8 +5,9 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 
-  max-width: calc(100% - 10%);
+  max-width: calc(100% - 2 * 48px);
   height: auto;
   color: #fff;
   text-decoration: none;
@@ -22,13 +23,13 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background: #000;
-  opacity: 0;
+  background: #2A2C2F;
+  opacity: 0.3;
   transition: opacity 0.3s ease;
 }
 
 .cover__background:hover::before {
-  opacity: 0.3;
+  opacity: 0.8;
 }
 @media screen and (max-width: 1024px) {
   .cover__background {
