@@ -13,7 +13,7 @@
   text-decoration: underline;
 }
 .header__lang-link:hover {
-  cursor: url("../../../Images/tinyhand2.png"),
+  cursor: url("../../../Images/tinyhand2.png");
 }
 @media screen and (max-width: 600px) {
   .header__lang-link {
