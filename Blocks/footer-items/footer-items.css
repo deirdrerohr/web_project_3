@@ -7,20 +7,22 @@
 }
 @media screen and (max-width: 1024px) {
   .footer-items {
-    max-width: 100%;
+    max-width: calc(100% - 2 * 24px);
   }
 }
-/*@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .footer-items {
-    /*padding-top: 82px;
-    min-height: 480px;
+    padding-top: 88px;
+    /*min-height: 480px;*/
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
   .footer-items {
     min-height: 200px;
     padding: 0px;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
   }
 }
 

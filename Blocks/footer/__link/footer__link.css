@@ -10,6 +10,9 @@
   line-height: 18px;
   /* identical to box height, or 112% */
 }
+.footer__link:hover {
+  cursor: url("../../../Images/tinyhand2.png"),
+}
 @media screen and (max-width: 425px) {
   .footer__link {
     padding-bottom: 32px;

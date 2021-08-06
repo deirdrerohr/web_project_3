@@ -2,7 +2,7 @@
   margin: auto;
   max-width: 1280px;
   display: grid;
-  padding: 92px 48px 0 48px;
+  padding: 92px 48px 12px 48px;
   justify-content: center;
   grid-template-columns: auto auto auto auto;
   /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
@@ -22,7 +22,7 @@
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .photo-grid {
     /* margin: auto;*/
-    padding: 88px 3% 30% 3%;
+    padding: 88px 24px 16px 24px;
     max-width: 768px;
     grid-template-columns: auto auto;
     gap: 16px;
@@ -31,7 +31,7 @@
 @media screen and (max-width: 424px) {
   .photo-grid {
     /* margin: auto;*/
-    padding: 64px 5% 16px 5%;
+    padding: 64px 16px 16px 16px;
     max-width: 768px;
     grid-template-columns: auto;
     gap: 12px;

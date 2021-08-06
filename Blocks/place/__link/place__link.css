@@ -8,6 +8,9 @@
   text-decoration-line: underline;
   color: #ffffff;
 }
+.place__link:hover {
+  cursor: url("../../../Images/tinyhand2.png"),
+}
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .place__link {
