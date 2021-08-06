@@ -1,6 +1,6 @@
 .cover__background {
   margin: auto;
-  padding-top: 92px;
+  padding: 0;
   position: relative;
   display: flex;
   align-items: center;
@@ -11,7 +11,7 @@
   min-height: 740px;
   color: #fff;
   text-decoration: none;
-  background-image: url('../../../Images/photo-grid-highway.jpg');
+  background-image: url('../../../Images/cover-route-66.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -33,26 +33,22 @@
 @media screen and (max-width: 1024px) {
   .cover__background {
     max-width: 100%;
-    max-height: 480px;
+    min-height: 640px;
   }
 }
 @media screen and (max-width: 768px) {
   .cover__background {
-    padding-top: 82px;
+    /*padding-top: 82px;*/
+    min-height: 480px;
   }
 }
 @media screen and (max-width: 425px) {
   .cover__background {
-    max-height: 200px;
-    padding-top: 64px;
-
+    min-height: 200px;
+    padding: 0px;
+    background-size: cover;
   }
 }
 
 
 
-@media screen and (max-width: 768px) {
-  .cover__background {
-    padding-top: 82px;
-  }
-}

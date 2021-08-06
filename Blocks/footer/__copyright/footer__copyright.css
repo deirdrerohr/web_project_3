@@ -1,16 +1,23 @@
 .footer__copyright {
-  float: right;
+  margin:0;
+padding:0;
   color: #ffffff;
   text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  text-align: right;
 }
 @media screen and (max-width: 425px) {
   .footer__copyright {
-    font-size: 14px;
+    padding-top: 16px;
     line-height: 14px;
-    padding: 0 0 32px 5%;
     color: #ffffff;
     text-decoration: none;
-    float: left;
+
     width: 260px;
   }
 }
