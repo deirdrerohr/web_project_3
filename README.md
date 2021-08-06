@@ -14,6 +14,9 @@
 * Working with images
 * Accepting code review feedback in a constructive way.
 
+### Where can I see this project?
+https://deirdrerohr.github.io/web_project_3/
+
 ### Overview
 * Intro
 * Figma
