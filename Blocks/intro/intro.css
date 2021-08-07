@@ -6,13 +6,19 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
-@media screen and (min-width: 426px) and (max-width: 1023px) {
+@media screen and (min-width: 770px) and (max-width: 1024px) {
   .intro {
-    max-width: 94%;
+    width: calc(100% - 2 * 48px);
   }
 }
+@media screen and (min-width: 426px) and (max-width: 769px) {
+  .intro {
+    width: calc(100% - 2 * 24px);
+  }
+}
+
 @media screen and (max-width: 425px) {
   .intro {
-    max-width: 90%;
+    width: calc(100% - 2 * 16px);
   }
 }

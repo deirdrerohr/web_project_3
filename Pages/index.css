@@ -14,11 +14,14 @@
 @import url(../Blocks/intro/__subtitle/intro__subtitle.css);
 @import url(../Blocks/intro/__text/intro__text.css);
 @import url(../Blocks/intro/__title/intro__title.css);
-/*@import url(../Blocks/intro/__list-item_bold/intro__list-item_bold.css);*/
+@import url(../Blocks/intro/__list/intro__list.css);
+@import url(../Blocks/intro/__listtext/intro__listtext.css);
+@import url(../Blocks/intro/__listtext/intro__listtext_bold_font.css);
+/*@import url(../Blocks/intro/__list-item_bold/intro__list-item_bold.css);
 @import url(../Blocks/intro/__list/__list-item/intro__list-item.css);
-/*@import url(../Blocks/intro/__list-bold/intro__list-bold.css);*/
+@import url(../Blocks/intro/__list-bold/intro__list-bold.css);
 @import url(../Blocks/intro/__bold/intro__bold.css);
-@import url(../Blocks/list-item/list-item.css);
+@import url(../Blocks/list-item/list-item.css);*/
 
 
 
