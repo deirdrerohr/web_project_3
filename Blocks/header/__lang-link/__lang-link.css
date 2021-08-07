@@ -13,7 +13,7 @@
   text-decoration: underline;
 }
 .header__lang-link:hover {
-  cursor: url("../../../Images/tinyhand2.png");
+  opacity: 0.8;
 }
 @media screen and (max-width: 600px) {
   .header__lang-link {

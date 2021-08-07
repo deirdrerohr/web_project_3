@@ -12,7 +12,7 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .photo-grid {
     /* margin: auto;*/
-    padding: 92px 5% 92px 5%;
+    padding: 92px 5% 12px 5%;
     max-width: 1024px;
     grid-template-columns: auto auto auto;
     grid-row: 1;

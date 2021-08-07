@@ -1,4 +1,5 @@
 .place__link {
+  padding-top: 12px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -9,7 +10,7 @@
   color: #ffffff;
 }
 .place__link:hover {
-  cursor: url("../../../Images/tinyhand2.png");
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {

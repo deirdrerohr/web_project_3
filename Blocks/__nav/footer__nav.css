@@ -1,8 +1,6 @@
 .footer__nav {
   margin: 0;
   padding-bottom: 24px;
-
-
   max-width: calc(100% - 2 * 48px);
   height: auto;
   color: #ffffff;
@@ -12,8 +10,7 @@
     max-width: calc(100% - 2 * 24px);
   }
 }
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 604px) {
   .footer__nav {
     display: flex;
     flex-direction: column;

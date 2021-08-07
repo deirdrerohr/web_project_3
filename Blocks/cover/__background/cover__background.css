@@ -14,6 +14,7 @@
   background-image: url('../../../Images/cover-route-66.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .cover__background::before {
   content: "";

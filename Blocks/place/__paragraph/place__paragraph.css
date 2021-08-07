@@ -9,7 +9,7 @@
   /* or 29px */
   color: #ffffff;
 }
-.place__paragraph :last-of-type {
+.place__paragraph:last-of-type {
   padding-bottom: 0;
 }
 
@@ -22,7 +22,6 @@
 @media screen and (max-width: 424px) {
   .place__paragraph {
     margin: 0;
-    padding: 0 16px 0 16px;
     font-size: 16px;
     line-height: 163%;
   }

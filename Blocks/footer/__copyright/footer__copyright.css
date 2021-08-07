@@ -11,7 +11,7 @@ padding:0;
   /* identical to box height, or 114% */
   text-align: right;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 606px) {
   .footer__copyright {
     padding-top: 16px;
     line-height: 14px;

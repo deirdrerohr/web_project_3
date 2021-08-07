@@ -13,8 +13,5 @@
 
   color: #ffffff;
 }
-@media screen and (min-width: 426px) and (max-width: 1023px) {
-  .intro__subtitle {
-    padding: 0;
-  }
-}
+
+
