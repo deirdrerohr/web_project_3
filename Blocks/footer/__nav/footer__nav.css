@@ -10,11 +10,10 @@
     max-width: calc(100% - 2 * 24px);
   }
 }
-@media screen and (max-width: 604px) {
+@media screen and (max-width: 598px) {
   .footer__nav {
     display: flex;
     flex-direction: column;
-    padding-top: 64px;
+    padding: 64px 0 0 0;
   }
 }
-

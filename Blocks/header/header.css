@@ -7,9 +7,14 @@
   align-items: flex-end;
 }
 /*media for header*/
-@media screen and (min-width: 426px) and (max-width: 1033px) {
+@media screen and (min-width: 769px) and (max-width: 1033px) {
   .header {
     padding: 34px 48px 0;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .header {
+    padding: 34px 24px 0;
   }
 }
 @media screen and (max-width: 425px) {
